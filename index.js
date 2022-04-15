@@ -20,6 +20,10 @@ const db = sql.createConnection({
     database: 'diRIxj1Ay9'
 })
 
+app.get('/', (req, res) => {
+    res.send('asd')
+})
+
 app.post('/api/auth/login', (req, res) => {
     const username = req.body.username
     const password = req.body.password
