@@ -14,10 +14,10 @@ app.use(cors())
 const port = process.env.PORT || 3001
 
 const db = sql.createConnection({
-    host: 'sql11.freemysqlhosting.net',
-    user: '	sql11485974',
-    password: 'QLTESn8n4k',
-    database: '	sql11485974'
+    host: 'remotemysql.com',
+    user: 'diRIxj1Ay9',
+    password: 'H6yiB4weKA',
+    database: 'diRIxj1Ay9'
 })
 
 app.post('/api/auth/login', (req, res) => {
