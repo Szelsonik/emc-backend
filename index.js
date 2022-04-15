@@ -14,7 +14,7 @@ app.use(cors())
 const port = process.env.PORT || 3001
 
 const db = sql.createConnection({
-    host: 'https://pma.ct8.pl',
+    host: 'mysql.ct8.pl',
     user: 'm27807_emcpanel',
     password: 'Emcpanel1!',
     database: 'm27807_emcpanel'
