@@ -14,10 +14,10 @@ app.use(cors())
 const port = process.env.PORT || 3001
 
 const db = sql.createConnection({
-    host: 'mysql.ct8.pl',
-    user: 'm27807_emcpanel',
-    password: 'Emcpanel1!',
-    database: 'm27807_emcpanel'
+    host: 'sql11.freemysqlhosting.net',
+    user: '	sql11485974',
+    password: 'QLTESn8n4k',
+    database: '	sql11485974'
 })
 
 app.post('/api/auth/login', (req, res) => {
